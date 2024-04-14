@@ -1,0 +1,22 @@
+#+title: Matlab Basic Assignment
+#+date: 2024a Autumn Session
+#+author: Euan Mendoza <14279196>
+
+* Part 1 (30 Marks)
+
+** TODO Question 1.a
+
+** TODO Question 1.b
+
+Applying the symbolic math, to find the results:
+
+$$
+A = \lim_{x\to 0} \frac{1 - \cos (6x)}{2x}
+$$
+
+#+begin_src matlab
+syms x
+A = limit((1 - cos(6.*x)) ./ (2.*x),x,0)
+#+end_src
+
+#+RESULTS:
